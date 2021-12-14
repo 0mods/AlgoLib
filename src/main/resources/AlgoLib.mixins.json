@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.algorithmlx.algolib.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "PlayerMixin"
+  ],
+  "client": [
+    "client.HumanoidArmorLayerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

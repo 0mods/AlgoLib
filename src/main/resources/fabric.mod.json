@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "algolib",
+  "version": "${version}",
+  "name": "AlgoLib",
+  "description": "Small API for Minecraft",
+  "authors": [
+    "AlgorithmLX"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.algorithmlx.algolib.AlgoLib"
+    ]
+  },
+  "mixins": [
+    "AlgoLib.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.11"
+  }
+}

@@ -7,7 +7,7 @@
     "PlayerMixin"
   ],
   "client": [
-    "client.HumanoidArmorLayerMixin"
+    "client.MixinArmorRender"
   ],
   "injectors": {
     "defaultRequire": 1

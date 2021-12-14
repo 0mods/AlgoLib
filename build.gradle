@@ -39,7 +39,7 @@ java {
         toolchain.languageVersion = JavaLanguageVersion.of(targetJavaVersion as String)
     }
     archivesBaseName = project.archives_base_name
-    withSourcesJar()
+
 }
 
 jar {
